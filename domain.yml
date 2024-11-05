@@ -1,0 +1,48 @@
+version: "3.1"
+
+intents:
+  - greet
+  - goodbye
+  - get_weather
+  - get_news
+  - get_randfacts
+  - get_jokes
+  - inform
+
+actions:
+  - action_get_weather
+  - action_get_news
+  - action_get_jokes
+  - action_get_randfacts
+  - action_goodbye
+  - action_greet
+  - action_listen
+  
+responses:
+  utter_greet:
+    - text: "Hello! How can I assist you today?"
+
+  utter_goodbye:
+    - text: "Goodbye! Have a great day!"
+
+  utter_ask_location:
+    - text: "Which location do you want the weather for?"
+
+  utter_weather:
+    - text: "The current weather in {location} is {description} with a temperature of {temperature}°C."
+
+  utter_news:
+    - text: "Here are the latest headlines: {headlines}"
+
+  utter_randfacts:
+    - text: "Did you know that {fact}?"
+
+  utter_jokes:
+    - text: "Okay get ready for chuckles : {joke}"
+
+  utter_iamabot:
+    - text: "I am a bot!"
+   
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true

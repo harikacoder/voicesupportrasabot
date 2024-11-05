@@ -1,0 +1,46 @@
+version: "3.1"
+
+nlu:
+- intent: greet
+  examples: |
+    - hello
+    - hi
+    - hey
+    - hey there
+    - hello there
+    - hi there
+    - hiii
+    - helloo
+
+- intent: goodbye
+  examples: |
+    - goodbye
+    - bye
+    - see you later
+    - okay that's all
+    - okay that's it
+    - bye bye
+
+- intent: get_weather
+  examples: |
+    - what's the weather like?
+    - tell me the weather
+    - what's the temperature?
+
+- intent: get_news
+  examples: |
+    - what's the news?
+    - tell me the latest news
+    - give me the headlines
+- intent : get_randfacts
+  examples: |
+    - tell me a random fact
+    - give me a random fact
+    - what is a random fact
+    - tell some facts
+    - give me some facts
+- intent: get_jokes
+  examples: |
+     - tell me a joke
+     - give me a joke
+     - i want to listen to some jokes

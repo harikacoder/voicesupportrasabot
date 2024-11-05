@@ -1,0 +1,27 @@
+{
+    "greetings": {
+        "morning": "Good morning! How can I assist you today?",
+        "afternoon": "Good afternoon! How can I help you today?",
+        "evening": "Good evening! How can I assist you today?"
+    },
+    "jokes": [
+        {
+            "setup": "Why don't scientists trust atoms?",
+            "punchline": "Because they make up everything!"
+        },
+        {
+            "setup": "Why did the scarecrow win an award?",
+            "punchline": "Because he was outstanding in his field!"
+        }
+    ],
+    "facts": [
+        "Honey never spoils. Archaeologists have found pots of honey in ancient Egyptian tombs that are over 3,000 years old and still edible.",
+        "Bananas are berries, but strawberries are not."
+    ],
+    "weather": "The current temperature is {temp} degrees Celsius with {description}.",
+    "news": "Here are the top news headlines:",
+    "searching": "Searching {query} on Google.",
+    "songs": "Playing {media} on YouTube.",
+    "videos": "Playing {media} on YouTube.",
+    "default": "I'm not sure what you mean. Can you please clarify?"
+}

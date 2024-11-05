@@ -1,0 +1,29 @@
+version: "3.1"
+
+stories:
+- story: greet and goodbye
+  steps:
+    - intent: greet
+    - action: utter_greet
+    - intent: goodbye
+    - action: utter_goodbye
+
+- story: get weather
+  steps:
+    - intent: get_weather
+    - action: utter_ask_location
+    - intent: inform
+    - action: action_get_weather
+    - action: utter_weather
+
+- story: get news
+  steps:
+    - intent: get_news
+    - action: action_get_news
+    - action: utter_news
+- story: get jokes
+  steps:
+   - intent: get_jokes
+   - action: action_get_jokes
+   - action: utter_jokes
+   
